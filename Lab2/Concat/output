@@ -1,0 +1,155 @@
+<resources>
+<string name="app_name"Hangman</string>
+string-array name="word-bank"><item>liability</item>
+<item>faith</item>
+<item>fragrant</item>
+<item>brown</item>
+<item>Click to save this word!</item>
+<item>offense</item>
+<item>summer</item>
+<item>dynamic</item>
+<item>understand</item>
+<item>aspect</item>
+<item>linger</item>
+<item>polish</item>
+<item>blade</item>
+<item>delicate</item>
+<item>jewel</item>
+<item>cream</item>
+<item>step</item>
+<item>heat</item>
+<item>emergency</item>
+<item>dominant</item>
+<item>fame</item>
+<item>inquiry</item>
+<item>nationalism</item>
+<item>insistence</item>
+<item>lung</item>
+<item>gregarious</item>
+<item>vacuum</item>
+<item>coffee</item>
+<item>junior</item>
+<item>alive</item>
+<item>clean</item>
+<item>convict</item>
+<item>button</item>
+<item>ant</item>
+<item>close</item>
+<item>paper</item>
+<item>measure</item>
+<item>unique</item>
+<item>breathe</item>
+<item>personal</item>
+<item>denial</item>
+<item>invite</item>
+<item>dilemma</item>
+<item>wave</item>
+<item>expenditure</item>
+<item>pipe</item>
+<item>height</item>
+<item>provincial</item>
+<item>stimulation</item>
+<item>insert</item>
+<item>dialect</item>
+<item>    think</item>
+<item>    consist</item>
+<item>    undertake</item>
+<item>    fold</item>
+<item>    take</item>
+<item>    plan</item>
+<item>    care</item>
+<item>    prompt</item>
+<item>    address</item>
+<item>    test</item>
+<item>    say</item>
+<item>    blame</item>
+<item>    be</item>
+<item>    resist</item>
+<item>    jump</item>
+<item>    smile</item>
+<item>    flee</item>
+<item>    inspect</item>
+<item>    strip</item>
+<item>    injure</item>
+<item>    proceed</item>
+<item>    cope</item>
+<item>    become</item>
+<item>    house</item>
+<item>    highlight</item>
+<item>    pop</item>
+<item>    accompany</item>
+<item>    fit</item>
+<item>    dump</item>
+<item>    disappear</item>
+<item>    receive</item>
+<item>    whisper</item>
+<item>    confess</item>
+<item>    depend</item>
+<item>    remember</item>
+<item>    date</item>
+<item>    flash</item>
+<item>    gaze</item>
+<item>    extract</item>
+<item>    encourage</item>
+<item>    snap</item>
+<item>    crack</item>
+<item>    deal</item>
+<item>    adapt</item>
+<item>    warn</item>
+<item>    pull</item>
+<item>    call</item>
+<item>    abolish</item>
+<item>    owe</item>
+<item>    dislike</item>
+<item>        enchanted</item>
+<item>    pregnant</item>
+<item>    uttermost</item>
+<item>    educated</item>
+<item>    profuse</item>
+<item>    shallow</item>
+<item>    technical</item>
+<item>    flashy</item>
+<item>    uneven</item>
+<item>    elegant</item>
+<item>    environmental</item>
+<item>    elite</item>
+<item>    afraid</item>
+<item>    unhappy</item>
+<item>    woebegone</item>
+<item>    bumpy</item>
+<item>    clear</item>
+<item>    uninterested</item>
+<item>    knowledgeable</item>
+<item>    wry</item>
+<item>    gaudy</item>
+<item>    defeated</item>
+<item>    cumbersome</item>
+<item>    chemical</item>
+<item>    fearless</item>
+<item>    voiceless</item>
+<item>    stingy</item>
+<item>    splendid</item>
+<item>    bright</item>
+<item>    charming</item>
+<item>    annoying</item>
+<item>    exciting</item>
+<item>    reasonable</item>
+<item>    adamant</item>
+<item>    nauseating</item>
+<item>    pumped</item>
+<item>    nimble</item>
+<item>    gruesome</item>
+<item>    crazy</item>
+<item>    needless</item>
+<item>    instinctive</item>
+<item>    cultural</item>
+<item>    unusual</item>
+<item>    fabulous</item>
+<item>    suspicious</item>
+<item>    gorgeous</item>
+<item>    second-hand</item>
+<item>    delicate</item>
+<item>    finicky</item>
+<item>    damp</item>
+</string-array>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="89dp"
+        android:layout_height="78dp"
+        android:fontFamily="casual"
+        android:text="Score:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rock" />
+
+    <ImageButton
+        android:id="@+id/paper"
+        android:layout_width="108dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="paperButtonHandler"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rock"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+        app:srcCompat="@drawable/paper" />
+
+    <ImageButton
+        android:id="@+id/rock"
+        android:layout_width="120dp"
+        android:layout_height="92dp"
+        android:background="#00930F0F"
+        android:onClick="rockButtonHandler"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computersChoice"
+        app:layout_constraintVertical_bias="0.643"
+        app:srcCompat="@drawable/rock" />
+
+    <ImageButton
+        android:id="@+id/scissors"
+        android:layout_width="122dp"
+        android:layout_height="103dp"
+        android:backgroundTint="#00A61E1E"
+        android:onClick="scissorsButtonHandler"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/rock"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+        app:srcCompat="@drawable/scissors" />
+
+    <ImageView
+        android:id="@+id/computersChoice"
+        android:layout_width="158dp"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/staticText"
+        android:layout_width="145dp"
+        android:layout_height="73dp"
+        android:fontFamily="casual"
+        android:text="Computer chose:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/computersChoice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <TextView
+        android:id="@+id/playersChoice"
+        android:layout_width="162dp"
+        android:layout_height="72dp"
+        android:fontFamily="casual"
+        android:lineSpacingExtra="8sp"
+        android:text="You chose:"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/rock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computersChoice"
+        app:layout_constraintVertical_bias="0.625" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

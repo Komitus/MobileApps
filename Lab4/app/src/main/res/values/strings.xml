@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="descriptions">
+        <item>
+            Informatyk to urządzenie peryferyjne przetwarzające kawę, herbatę, colę oraz hektolitry napoju
+            energetycznego w linie kodu źródłowego, czyli jednym słowem programujące. Jest jedynym znanym stworzeniem,
+            które potrafi rozwiązać twój problem, o którym nie miałeś pojęcia, że istnieje,
+            w sposób którego absolutnie nie zrozumiesz. Sami informatycy uważają siebie za matematyków,
+            a matematycy (jak to mają w zwyczaju) podniecają się pierścieniami, alefami zero,
+            koniunkcyjnymi postaciami normalnymi formuły zdaniowej.
+        </item>
+        <item>
+            Główny informatyk – jest trwale zrośnięty ze swoim komputerem, pisze szybciej,
+            niż komputer może przetworzyć,myśli w asemblerze, wytrzymuje porażenia 380V
+            i zna na pamięć wszystkie układy scalone.
+        </item>
+        <item>
+            Zaawansowany programista – siedzi dwadzieścia godzin dziennie przed komputerem,
+            wpisuje 10 słów na sekundę, zna Pascal, BASIC, Assembler, Fortran, Logo, APL,
+            Algol, Prolog, wytrzymuje 230V i zna wszystkie książki.
+        </item>
+        <item>
+            Inżynier informatyk – używa komputera 16 godzin na dobę, wpisuje 10 znaków na sekundę,
+            zna doskonale Pascal, BASIC, C, C++, C#, Java i Assembler,
+            może na krótko chwycić gorącą lutownicę i ma wszystkie książki.
+        </item>
+        <item>
+            Informatyk – spędza cały czas pracy i wszystkie przerwy przed komputerem,
+            wpisuje 5 znaków na sekundę, zna doskonale Pascal i BASIC,
+            drutuje bezpieczniki i wie, gdzie w bibliotece są właściwe książki.
+        </item>
+            Programista – spędza tylko czas pracy przed komputerem,
+            pisze jak sekretarka, z pomocą podręcznika umie programować
+            w asemblerze, potrafi wymienić bezpieczniki i wie, gdzie może kupić książki.
+        <item>
+            Student informatyki – traktuje komputer jako hobby, wpisuje 10 słów na minutę,
+            potrafi z pomocą podręcznika napisać krótkie programy w Pascalu,
+            umie wymienić baterie w kalkulatorze i wie, że są książki.
+        </item>
+        <item>
+            User – siedzi przed komputerem od czasu do czasu, wpisuje jedno słowo na minutę,
+            potrafi przepisać krótkie programy w BASICu, poraża go bateryjka 9V
+            i nie interesują go żadne książki, bo i tak ich nie rozumie.
+        </item>
+        <item>
+            Co sobotę budzi ze swoim znajomym Mirkiem całą rodzinę o czwartej w nocy,
+            bo hałasują, pakując wędki, robiąc kanapki itd.
+        </item>
+        <item>
+            Hacker – stanowi z komputerem jedność, nie używa klawiatury,
+            bo przekazuje swoje myśli bezpośrednio do komputera,
+            w razie potrzeby sam pisze szybko język programowania,
+            sam wytwarza potrzebne 220V i napisał wszystkie lepsze książki.
+        </item>
+        <item>
+            Informatycy rzadko opuszczają swoje legowiska, ale potrafią być niebezpieczni
+            jeśli się ich zdenerwuje. W razie konfrontacji należy pamiętać,
+            że informatycy są bardzo wrażliwi na światło słoneczne.
+            Dobrym sposobem na unieszkodliwienie informatyka jest wyłączenie prądu. Wtedy informatyk staje się lemingiem.
+        </item>
+        <item>
+            Informatyka w szkole (nazywana dawniej również zajęciami komputerowymi) opiera się głównie na uczeniu o Excelu oraz pisaniu kartkówek.
+            Raz na pół roku uczniowie mogą włączyć komputer i zobaczyć, jak wygląda ich system operacyjny
+            (o ile w sali informatycznej w ogóle są komputery).
+        </item>
+        <item>
+            Informatyk nie jest stworzeniem stadnym, zazwyczaj do egzystowania wystarcza mu legowisko
+            ze stałym podłączeniem do internetu, niezbyt oddalone od źródła snickersów i kawy.
+            Przypadki patologiczne potrzebują samicy, przedstawiciela innego gatunku ssaków,
+            najlepiej księgową albo matematyczkę, która pomagałaby swojemu samcowi
+            pisać niedziałające algorytmy.
+        </item>
+        <item>
+            Nieskuteczna – samiec rzuca wyzywającym tekstem: wypełnimy razem arkusz kalkulacyjny?
+            lub chodź do mnie, scrackujemy notatnik!
+        </item>
+    </string-array>
+</resources>

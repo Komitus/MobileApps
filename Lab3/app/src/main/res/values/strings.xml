@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ex1</string>
+    <string-array name="categories">
+        <item>Work</item>
+        <item>Exercise</item>
+        <item>Home</item>
+    </string-array>
+    <string-array name="priority">
+        <item>Lazy</item>
+        <item>Normal</item>
+        <item>Asap</item>
+    </string-array>
+</resources>

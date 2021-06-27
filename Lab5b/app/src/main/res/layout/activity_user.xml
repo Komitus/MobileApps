@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation"
+        android:layout_marginBottom="0dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/purple_700"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/makeMessagesFragment"
+            style="@android:style/Widget.Material.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/purple_700"
+            android:cropToPadding="false"
+            android:maxWidth="60dp"
+            android:maxHeight="60dp"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:onClick="onClickMakeFragment"
+            app:srcCompat="@drawable/fui_ic_mail_white_24dp" />
+
+        <ImageButton
+            android:id="@+id/makeProfileFragment"
+            style="@android:style/Widget.Material.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/purple_700"
+            android:cropToPadding="false"
+            android:maxWidth="60dp"
+            android:maxHeight="60dp"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:onClick="onClickMakeFragment"
+            app:srcCompat="@drawable/fui_ic_anonymous_white_24dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
